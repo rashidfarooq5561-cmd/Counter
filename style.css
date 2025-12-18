@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.button > button {
+    background-color: white;
+    color: black;
+    padding: 15px 25px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button > button:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
